@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>UOS Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <meta name="description" content="uos카페 사이트">
+    <!--Css-->
+    <style>
+        h2 {
+            font-family: 'Dancing Script', cursive;
+        }
+        a {
+            text-decoration: none}
+
+        img {
+            max-width: 100%}
+
+        .wrapper {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 0 4%;
+        }
+        .home-content {
+            text-align: center;
+            margin-top: 10%;
+        }
+
+        .home-content h3 {
+                font-size: 1.6rem;
+                font-family: 'Nanum Pen Script', cursive;
+                margin: 100px 0 42px;
+                color:#500808;
+
+        }
+
+        .page-title {
+            font-size: 4rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: #370101;
+        }
+
+        .button {
+          font-family: 'Nanum Pen Script', cursive;
+            font-size: 1.5rem;
+            background: #782424;
+
+            color: #fff;
+            border-radius: 5px;
+            padding: 18px 32px;
+        }
+
+        .button:hover {
+                background: #370101;
+
+        }
+        .logo {
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main-nav {
+            display: flex;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            margin-top: 34px;
+            list-style: none;
+        }
+
+        .main-nav li {
+                margin-left: 36px;
+            }
+
+        .main-nav a {
+                color: #370101;
+
+            }
+
+        .main-nav a:hover {
+                    color: #fff;
+
+                }
+
+        #home {
+          background-image: url(./images/back1.jpg);
+          min-height: 100vh;
+        }
+
+        .big-bg {
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        .uosname {
+            color: #370101;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html" class="uosname"><img src="images/uos.png" alt="UOS Coffee" class="logo">UOS Coffee</a></h1>
+
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="home-content wrapper">
+            <h2 class="page-title">Shine bright like a diamond</h2>
+            <h3>세상에서 가장 귀한 사람으로 변하는 곳</h3>
+            <a href="menu.html" class="button">메뉴 보기</a>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2021 UOS coffee</small></p>
+        </div>
+        <style>
+            footer {
+                background: #370101;
+                text-align: center;
+                padding: 15px 0;
+            }
+
+                footer p {
+                    color: #fff;
+                    font-size: 0.9rem;
+                }
+        </style>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>계산기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+  <form name="forms">
+    <input type="text" name="output" readonly>
+    <input type="button" class="clear" value="C" onclick="document.forms.output.value=''">
+    <input type="button" class="operator" value="/" onclick="document.forms.output.value+='/'">
+    <input type="button" value="아메리카노" onclick="document.forms.output.value+=10">
+    <input type="button" value="에스프레쏘" onclick="document.forms.output.value+=9">
+    <input type="button" value="바닐라 라떼자바칩 프라푸치노" onclick="document.forms.output.value+=244">
+    <input type="button" class="operator" value="*" onclick="document.forms.output.value+='*'">
+    <input type="button" value="카푸치노" onclick="document.forms.output.value+=150">
+    <input type="button" value="카페모카" onclick="document.forms.output.value+=290">
+    <input type="button" value="카라멜 마키야토" onclick="document.forms.output.value+=241">
+    <input type="button"class="operator" value="+" onclick="document.forms.output.value+='+'">
+    <input type="button" value="자바칩 프라푸치노" onclick="document.forms.output.value+=340">
+    <input type="button" value="아이스크림" onclick="document.forms.output.value+=160">
+    <input type="button" value="아포가토" onclick="document.forms.output.value+=361">
+    <input type="button" class="operator" value="-" onclick="document.forms.output.value+='-'">
+    <input type="button" class="dot" value="." onclick="document.forms.output.value+='.'">
+    <input type="button" value="0" onclick="document.forms.output.value+=0">
+    <input type="button" class="operator result" value="kcal" onclick="document.forms.output.value= eval(document.forms.output.value)">
+  </form>
+  </div>
+</body>
+
+</html>
